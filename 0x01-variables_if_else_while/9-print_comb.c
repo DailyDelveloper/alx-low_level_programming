@@ -18,7 +18,7 @@ int main(void)
 		if (a != '9')
 		{
 			putchar(',');
-			puthcar(' ');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
