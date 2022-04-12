@@ -13,7 +13,10 @@ int main(void)
 
 	for (a = 0x1; a < 0xf; a++)
 	{
-		putchar(a + '0x0');
+		if(a <= 0x9)
+			putchar(a + '0');
+		else
+			putchar(a);
 	}
 	putchar('\n');
 	return (0);
