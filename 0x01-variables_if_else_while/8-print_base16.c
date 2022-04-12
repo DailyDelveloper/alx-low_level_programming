@@ -16,7 +16,7 @@ int main(void)
 		if(a <= 0x9)
 			putchar(a + '0');
 		else
-			putchar(a);
+			putchar(a + 'a');
 	}
 	putchar('\n');
 	return (0);
