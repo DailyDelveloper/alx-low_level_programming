@@ -11,7 +11,7 @@ int main(void)
 {
 	int a;
 
-	for (a = 0x1; a < f; a++)
+	for (a = 0x1; a < 0xf; a++)
 	{
 		putchar(a + '0');
 	}
