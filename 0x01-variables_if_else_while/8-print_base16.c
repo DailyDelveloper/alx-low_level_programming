@@ -13,7 +13,7 @@ int main(void)
 
 	for (a = 0x1; a < 0xf; a++)
 	{
-		putchar(a + '0');
+		putchar(a + '0x0');
 	}
 	putchar('\n');
 	return (0);
