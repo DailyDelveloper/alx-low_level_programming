@@ -9,14 +9,16 @@
 
 int main(void)
 {
-	int a;
+	char a;
 
-	for (a = 0x1; a < 0xf; a++)
+	for (a = '0'; a < '9'; a++)
 	{
-		if(a <= 0x9)
-			putchar(a + '0');
-		else
-			putchar(a + 'a');
+		putchar(a);
+	}
+
+	for (a = 'a'; a <= 'f'; a++)
+	{
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
