@@ -10,5 +10,5 @@
 
 void _puts(char *str)
 {
-	fprintf(stdout,"%%",*str);
+	fprintf(stdout,"%s",str);
 }
