@@ -4,6 +4,7 @@
  * reset_to_98 - Reset value to  98
  *
  * Description: Reset value of a variable to 98 using pointer
+ * @n: integer pointer
  * Return: void
  */
 
