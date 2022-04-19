@@ -10,7 +10,7 @@ int _atoi(char *s)
 {
 	int num = 0, i;
 
-	for (i = 0; i < strlen(s); i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (!(s[i] > '9' || s[i] < '0'))
 		{
