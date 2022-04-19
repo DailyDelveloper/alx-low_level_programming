@@ -11,13 +11,13 @@
  * Return: void
  */
 
-void print_array(char *a, int n)
+void print_array(int *a, int n)
 {
 	int i, len = strlen(a);
 
 	for (i = 0; i < n && i < len; i++)
 	{
-		printf("%s, ", a[i]);
+		printf("%d, ", a[i]);
 	}
 	printf("\n");
 }
