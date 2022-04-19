@@ -27,7 +27,10 @@ int _atoi(char *s)
 		}
 
 	}
-	num *= neg;
+	if(num > 0)
+	{	
+		num *= neg;
+	}
 	return (num);
 
 }
