@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 /**
  * _strcpy - Copy one string another
  *
@@ -11,7 +11,16 @@
 
 char *_strcpy(char *dest, char *src)
 {
-	strcpy(dest, src);
+	int len = 0;
 
+	while (src[len] != '\0')
+	{
+		len++;
+	}
+
+	for (int i = 0; i <= len; i++)
+	{
+		dest[i] = src[i];
+	}
 	return (dest);
 }
