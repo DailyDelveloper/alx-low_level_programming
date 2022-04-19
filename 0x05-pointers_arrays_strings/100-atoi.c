@@ -8,13 +8,18 @@
 
 int _atoi(char *s)
 {
-	int num = 0, i, neg = 1;
+	int numStart = 0, num = 0, i, neg = 1;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (!(s[i] > '9' || s[i] < '0'))
 		{
 			num = num * 10 + (s[i] - '0');
+			numStart = 1;
+		}
+		else if (numStart == 1)
+		{
+			break;
 		}
 		else if (s[i] == '-')
 		{
