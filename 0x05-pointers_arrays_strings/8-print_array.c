@@ -17,7 +17,7 @@ void print_array(char *a, int n)
 
 	for (i = 0; i < n && i < len; i++)
 	{
-		printf("%d, ", a[i]);
+		printf("%s, ", a[i]);
 	}
 	printf("\n");
 }
