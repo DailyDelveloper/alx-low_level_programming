@@ -11,7 +11,7 @@
 char *cap_string(char *c)
 {
 	int len = strlen(c), i, j;
-	char *a[] = [' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'];
+	char *a[] = " \t\n,;.!?\"(){}";
 
 	for (i = 0; i < len; i++)
 	{
