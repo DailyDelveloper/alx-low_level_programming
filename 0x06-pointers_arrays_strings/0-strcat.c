@@ -19,7 +19,7 @@ char *_strcat(char *dest, char *src)
 	}
 	len1--;*/
 
-	int i; len1 = strlen(dest), len2 = -1;
+	int len1 = strlen(dest), len2 = -1;
 	do {
 		len2++;
 		dest[len1] = src[len2];
