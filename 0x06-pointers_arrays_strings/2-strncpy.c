@@ -11,9 +11,9 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i, len1 = strlen(dest), len2 = strlen(src);
+	int i;
 
-	for (i = 0; i < n && i < len1 && i < len2; i++)
+	for (i = 0; i < n; i++)
 	{
 		dest[i] = src[i];
 	}
