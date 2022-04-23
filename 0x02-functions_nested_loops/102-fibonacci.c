@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int a = 1, b = 2, i, temp;
+	long a = 1, b = 2, i, temp;
 
 	printf("%d, ", a);
 	for (i = 1; i <= 50; i++)
