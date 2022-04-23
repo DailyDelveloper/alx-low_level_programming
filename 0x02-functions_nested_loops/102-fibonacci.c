@@ -18,7 +18,7 @@ int main(void)
 		temp = a + b;
 		a = b;
 		b = temp;
-		if(i != 49)
+		if (i != 49)
 		{
 			printf(", ");
 		}
