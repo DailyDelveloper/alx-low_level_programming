@@ -4,7 +4,7 @@
  * print_diagonal - Print Diagonal
  *
  * Description: Print Diagonal line
- * @: numbers of the line
+ * @n: numbers of the line
  * Return: void
  */
 
