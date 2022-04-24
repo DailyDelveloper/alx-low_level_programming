@@ -11,7 +11,7 @@ int main(void)
 {
 	long a = 612852475143, i, largest = 1;
 
-	for (i = 2; i <= a / 2; i++)
+	for (i = 2; i <= a; i++)
 	{
 		if (a % i == 0)
 		{
