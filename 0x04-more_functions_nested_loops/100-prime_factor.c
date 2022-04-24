@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	long a = 612852475143, i, j, largest = 1;
+	long a = 612852475143, i, largest = 1;
 
 	for (i = 2; i <= a / 2; i++)
 	{
