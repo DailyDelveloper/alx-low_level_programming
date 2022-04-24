@@ -18,10 +18,10 @@ int main(void)
 			if(i != j)
 			{
 				_putchar(i + '0');
-				_putchar(i + '0');
+				_putchar(j + '0');
 
 			}
-			if(i != 8 && j == 9)
+			if(!(i == 8 && j == 9))
 			{
 				_putchar(',');
 				_putchar(' ');
