@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - Prints combination of two digit
@@ -17,16 +17,16 @@ int main(void)
 		{
 			if(i != j)
 			{
-				_putchar(i + '0');
-				_putchar(j + '0');
+				putchar(i + '0');
+				putchar(j + '0');
 
 			}
 			if(!(i == 8 && j == 9))
 			{
-				_putchar(',');
-				_putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
