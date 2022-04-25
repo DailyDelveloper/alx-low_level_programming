@@ -1,3 +1,4 @@
+#include <string.h>
 /**
  * _memset - fills memory with a constant byte
  *
@@ -10,9 +11,9 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	int i, len = strlen(s);
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < n && i < len; i++)
 	{
 		s[i] = b;
 	}
