@@ -8,7 +8,7 @@
  * Return: char
  */
 
-char *leet(char *c)
+char *leet(char **c)
 {
 	int len = strlen(c), i, j;
 	char *a = "aA4eE3oO0tT7lL1";
@@ -19,7 +19,7 @@ char *leet(char *c)
 		{
 			if (c[i] == a[j] || c[i] == a[j + 1])
 			{
-				&c[i] = a[j + 2];
+				c[i] = a[j + 2];
 			}
 		}
 	}
