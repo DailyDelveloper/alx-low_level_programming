@@ -3,7 +3,7 @@
  *
  * Description: Fills memory with a given constant byte
  * @s: the memory holder
- * @b: the byte 
+ * @b: the byte
  * @n: number of memories to be filled
  * Retunr: char
  */
