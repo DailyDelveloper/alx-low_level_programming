@@ -5,7 +5,7 @@
  * @s: the memory holder
  * @b: the byte
  * @n: number of memories to be filled
- * Retunr: char
+ * Return: char
  */
 
 char *_memset(char *s, char b, unsigned int n)
