@@ -5,10 +5,10 @@
  * @s: the memory holder
  * @b: the byte
  * @n: number of memories to be filled
- * Return: char
+ * Return: void
  */
 
-char *_memset(char *s, char b, unsigned int n)
+void *_memset(char *s, char b, unsigned int n)
 {
 	int i;
 
@@ -16,6 +16,4 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[i] = b;
 	}
-
-	return (s);
 }
