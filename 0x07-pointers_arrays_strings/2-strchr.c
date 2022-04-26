@@ -8,7 +8,7 @@
  * Return: char
  */
 
-char *_strchr(char *s, char c)
+void *_strchr(char *s, char c)
 {
 	int i;
 	char *res;
