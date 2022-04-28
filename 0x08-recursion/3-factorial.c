@@ -2,7 +2,7 @@
  * factorial - Return Factorial of a number
  *
  * Description: Returns factorial of a number n
- * @n: Integer 
+ * @n: Integer
  * Return: int
  */
 
