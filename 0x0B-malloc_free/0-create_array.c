@@ -2,7 +2,8 @@
 /**
  * create_array - Creates an array of chars
  *
- * Description: creates an array of chars and initialize it with a specific char.
+ * Description: creates an array of chars,
+ * and initialize it with a specific char.
  * @size: size of the array
  * @c: character
  * Return: char
