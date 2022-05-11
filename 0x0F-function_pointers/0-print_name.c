@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * print_name - Prints a name
  *
@@ -8,15 +7,6 @@
  * Return: void
  */
 
-void f(char *a)
-{
-	int i;
-
-	for (i = 0; a[i] != '\0'; i++)
-	{
-		_putchar(a[i]);
-	}
-}
 void print_name(char *name, void (*f)(char *))
 {
 	f(name);
