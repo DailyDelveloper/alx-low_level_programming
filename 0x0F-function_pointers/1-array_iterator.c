@@ -3,7 +3,7 @@
 /**
  * array_iterator - Execute a function
  *
- * Description: Execute a function given as a parameter on 
+ * Description: Execute a function given as a parameter on
  * each element of an array
  * @array: integer elements
  * @size: size of the array
