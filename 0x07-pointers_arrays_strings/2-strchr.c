@@ -2,7 +2,7 @@
 /**
  * _strchr - Locates character in a string
  *
- * Description: Finds and returns pointer of the first 
+ * Description: Finds and returns pointer of the first
  * occuerance of a character
  * @s: Pointer to a string
  * @c: The character to be searched
@@ -22,6 +22,10 @@ char *_strchr(char *s, char c)
 			return (res);
 		}
 	}
-
+	if(s[i] == c)
+	{
+		res = s + i;
+		return (res);
+	}
 	return (NULL);
 }
