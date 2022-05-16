@@ -22,7 +22,7 @@ char *_strchr(char *s, char c)
 			return (res);
 		}
 	}
-	if(s[i] == c)
+	if (s[i] == c)
 	{
 		res = s + i;
 		return (res);
