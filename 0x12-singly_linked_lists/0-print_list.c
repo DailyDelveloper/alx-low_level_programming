@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "lists.h"
 /**
  * print_list - Prints the given list
@@ -24,6 +23,7 @@ size_t print_list(const list_t *h)
 		}
 		i++;
 		cursor = cursor->next;
+
 	}
 	return (i);
 }
